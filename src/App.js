@@ -3,8 +3,10 @@ import Timer from './components/Timer';
 
 function App() {
   return (
-    <div className="App bg-neutral-700">
+    <div className="App">
+      <main>
     <Timer />
+      </main>
     </div>
   );
 }
